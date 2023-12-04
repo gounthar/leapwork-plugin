@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.jenkins-ci.plugins</groupId>
 		<artifactId>plugin</artifactId>
-		<version>4.24</version>
+		<version>4.51</version>
 		<relativePath />
 	</parent>
 	<groupId>io.jenkins.plugins</groupId>
@@ -18,8 +18,7 @@
 		<changelist>-SNAPSHOT</changelist>
 		<!-- Baseline Jenkins version you use to build the plugin. Users must have 
 			this version or newer to run. -->
-		<jenkins.version>2.277.1</jenkins.version>
-		<java.level>8</java.level>
+		<jenkins.version>2.346.3</jenkins.version>
 		<gitHubRepo>jenkinsci/leapwork-plugin</gitHubRepo>
 	</properties>
 	<name>Leapwork</name>
@@ -71,7 +70,6 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>1.7.32</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
